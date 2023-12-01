@@ -1,0 +1,241 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-height: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 600px;
+	background: #73C8A9;
+background: -webkit-linear-gradient(to right, #373B44, #73C8A9);
+background: linear-gradient(to right, hsla(220, 15%, 20%, 0.1), hsla(168, 50%, 65%, 0.1)),url("../media/fotos/reducidos/pexels-egor-kamelev-927497.jpg");
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px 50px 0 0;
+}
+nav >a{
+	color: aliceblue;
+	font-weight: normal;
+	text-decoration: none;
+	margin-right: 40px;
+	font-size: 20px;
+}
+nav >a:hover{
+	text-decoration: inherit;
+	color: crimson;
+}
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;	
+	}
+header{
+	height: 750px; 
+}
+header .textos-header{
+	display: flex;
+	height: 450px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: aliceblue;
+}
+.textos-header h1{
+	font-size: 55px;
+	
+}
+.textos-header h2{
+	font-size:30px;
+	font-weight:inherit;
+}
+/* ------------------------------------------------------- */
+.titnot{
+	text-align: center;
+	background-color: black;
+	font-size: 30px;
+	color: aliceblue;
+	padding-bottom: 10px;
+	
+}
+.contenernoticias {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding:  50px 150px 50px 150px;
+    box-sizing: border-box;
+
+}
+.contenidonot {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.imagenesnot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+}
+
+.imagenesnot img {
+    width: calc(100% - 10px);
+    height: auto;
+}
+.contenidonot h2{
+	font-size: 80px;
+}
+.contenidonot h3{
+	font-size: 60px;
+	font-weight:inherit;
+}
+.contenidonot p{
+	padding: 50px 150px 0 0;
+	font-size: 25px;
+}
+
+/* ------------------------------------------------------- */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+	background-color: black;
+}
+
+.video-section {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text-columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 80px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.video-section h1{
+	font-size: 60px;
+	padding: 30px;
+}
+.text-columns h3{
+	font-size: 30px;
+}
+.text-columns p{
+	font-weight: lighter;
+	padding-top: 30px;
+}
+
+
+/* ------------------------------------------------------- */
+.location-section {
+    text-align: center;
+    padding: 30px;
+	background-color: black;
+	color: aliceblue;
+}
+.location-section h2 {
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* ------------------------------------------------------- */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #396C54;
+    padding: 50px;
+	color: azure;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.left-content img {
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.contact-info {
+    margin-right: 40px;
+	padding-left: 50PX
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+}
+
+.right-content a {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.right-content img {
+    width: 60px;
+    height: auto;
+}
+
+
+
+

@@ -1,0 +1,268 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.contenedor{
+	padding: 60px 0;
+	width: 90%;
+	max-height: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 600px;
+	background: #73C8A9;
+background: -webkit-linear-gradient(to right, #373B44, #73C8A9);
+background: linear-gradient(to right, hsla(220, 15%, 20%, 0.1), hsla(168, 50%, 65%, 0.1)),url("../media/fotos/reducidos/pexels-egor-kamelev-927497.jpg");
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px 50px 0 0;
+}
+nav >a{
+	color: aliceblue;
+	font-weight: normal;
+	text-decoration: none;
+	margin-right: 40px;
+	font-size: 20px;
+}
+nav >a:hover{
+	text-decoration: inherit;
+	color: crimson;
+}
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;	
+	}
+header{
+	height: 750px; 
+}
+header .textos-header{
+	display: flex;
+	height: 450px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: aliceblue;
+}
+.textos-header h1{
+	font-size: 55px;
+	
+}
+.textos-header h2{
+	font-size:30px;
+	font-weight:inherit;
+}
+/* ------------------------------------------------------- */
+.titnot{
+	text-align: center;
+	background-color: black;
+	font-size: 30px;
+	color: aliceblue;
+	padding-bottom: 10px;
+	
+}
+.contenernoticias {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding:  50px 150px 50px 150px;
+    box-sizing: border-box;
+
+}
+.contenidonot {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.imagenesnot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+}
+
+.imagenesnot img {
+    width: calc(50% - 10px);
+    height: auto;
+}
+.contenidonot h2{
+	font-size: 60px;
+}
+.contenidonot h3{
+	font-size: 60px;
+	font-weight:inherit;
+}
+.contenidonot p{
+	padding: 50px 150px 0 0;
+	font-size: 18px;
+}
+/* ------------------------------------------------------- */
+.containerhor {
+    text-align: center;
+    padding: 70px;
+	background-color: antiquewhite;
+}
+
+.contenidohor {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titulohor {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.subhor {
+    font-size: 25px;
+	font-weight: lighter;
+    margin-bottom: 20px;
+	
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+.text {
+    text-align: left;
+}
+.imgi {
+	padding: 20px
+}
+
+
+.separator {
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.containerhor {
+	background-image: url("../media/iconos/Web 1920 – 7.png");
+	background-size: cover;
+}
+/* ------------------------------------------------------- */
+.contenedorcompra {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    background-color: black;
+	color: azure;
+	padding: 100px;
+	background-image: url("../media/fotos/reducidos/9488806c-b3d4-4ded-afb9-7b0905dea75d.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+.textocompra {
+    text-align:center;
+    padding: 200px;
+}
+.textocompra p {
+    width: 500px;
+	
+}
+.textocompra p {
+    width: 500px;
+	
+}
+
+.textocompra h1 {
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+.textocompra p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+	
+}
+
+.textocompra h2 {
+    font-size: 90px;
+    margin-bottom: 15px;
+	
+}
+
+.botonverde {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	
+}
+
+.botonverde:hover {
+	
+    background-color: darkgreen;
+}
+
+
+/* ------------------------------------------------------- */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #396C54;
+    padding: 50px;
+	color: azure;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.left-content img {
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.contact-info {
+    margin-right: 40px;
+	padding-left: 50PX
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+}
+
+.right-content a {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.right-content img {
+    width: 60px;
+    height: auto;
+}
+
+
+
+
